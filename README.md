@@ -56,7 +56,7 @@ Analizar la correlación entre estrés crediticio y comportamiento de gasto, ide
 
 ```
 credit-stress-analysis/
-├── README.md                          # Este archivo
+├── README.md                         
 ├── requirements.txt                   # Dependencias Python
 ├── config.yaml                        # Configuración (paths, params)
 │
