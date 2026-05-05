@@ -1,4 +1,3 @@
-# credit-stress-analysis
 # Análisis del Estrés Crediticio y su Correlación con el Comportamiento de Gasto
 ### Usuarios de 25-34 años
 
