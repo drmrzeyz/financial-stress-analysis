@@ -88,11 +88,8 @@ credit-stress-analysis/
 │   ├── models/
 │   │   
 │   └── reports/
-│       
 │
-├── tests/
-│
-└── .gitignore                       
+└── tests/               
 ```
 
 ---
