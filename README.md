@@ -73,7 +73,6 @@ credit-stress-analysis/
 │   ├── __init__.py
 │   ├── data_loader.py                # Cargar y filtrar datos
 │   ├── feature_engineering.py        # Crear variables derivadas
-│   ├── 
 │   ├── rf_model.py                   # Training Random Forest
 │   ├── visualization.py              # Gráficas y diagramas
 │   └── utils.py                      # Funciones auxiliares
@@ -81,8 +80,7 @@ credit-stress-analysis/
 ├── notebooks/
 │   ├── 01_data_preparation.ipynb     # Carga, limpieza, EDA
 │   ├── 02_feature_engineering.ipynb  # Crear variables derivadas
-│   ├── 03_
-│   ├── 04_random_forest_model.ipynb  # Entrenamiento y validación RF
+│   ├── 03_random_forest_model.ipynb  # Entrenamiento y validación RF
 │
 ├── outputs/
 │   ├── figures/
@@ -101,7 +99,7 @@ credit-stress-analysis/
 
 ## REQUISITOS
 
-### Python 3.9+
+### Python
 
 ```bash
 pip install -r requirements.txt
