@@ -211,7 +211,7 @@ ALTO (2): P8_4 ∈ [7,10] OR (P6_7=1 AND P6_8=1)
 
 ## Autor
 
-**Ana Flores** - Data Scientist | Física 
+Ana Flores
 
 ---
 
