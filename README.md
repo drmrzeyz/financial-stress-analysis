@@ -1,11 +1,11 @@
-# Análisis del Estrés Crediticio y su Correlación con el Comportamiento de Gasto
+# Análisis del Estrés Financiero y su Correlación con el Comportamiento de Gasto
 ### Usuarios de 25-34 años
 
 ---
 
 ## DESCRIPCIÓN
 
-Este proyecto investiga cómo el **estrés crediticio** (experiencias de insolvencia, preocupación financiera, percepciones de sobreendeudamiento) está correlacionado con cambios en el **comportamiento de gasto** de adultos jóvenes mexicanos.
+Este proyecto investiga cómo el **estrés financiero** (experiencias de insolvencia, preocupación financiera, percepciones de sobreendeudamiento) está correlacionado con cambios en el **comportamiento de gasto** de adultos jóvenes mexicanos.
 
 - Identificación temprana de usuarios en riesgo financiero
 - Diseño de productos financieros adaptados a jóvenes (25-34)
@@ -17,7 +17,7 @@ Este proyecto investiga cómo el **estrés crediticio** (experiencias de insolve
 ## OBJETIVOS
 
 ### Objetivo General
-Analizar la correlación entre estrés crediticio y comportamiento de gasto, identificando mecanismos causales y predecir el riesgo de estrés crediticio alto en usuarios de 25-34 años.
+Analizar la correlación entre estrés financiero y comportamiento de gasto, identificando mecanismos causales y predecir el riesgo de estrés financiero alto en usuarios de 25-34 años.
 
 ### Objetivos Específicos
 
@@ -27,7 +27,7 @@ Analizar la correlación entre estrés crediticio y comportamiento de gasto, ide
    - Validar ajuste del modelo teórico
 
 2. **Random Forest**
-   - Predecir probabilidad de estrés crediticio alto (clasificación multinomial)
+   - Predecir probabilidad de estrés financiero alto (clasificación multinomial)
    - Identificar variables más predictivas
    - Crear scoring operacional para identificar usuarios en riesgo
 
@@ -55,7 +55,7 @@ Analizar la correlación entre estrés crediticio y comportamiento de gasto, ide
 ## ESTRUCTURA DEL PROYECTO
 
 ```
-credit-stress-analysis/
+financial-stress-analysis/
 ├── README.md                         
 ├── requirements.txt                   # Dependencias Python
 ├── config.yaml                        # Configuración (paths, params)
@@ -133,7 +133,7 @@ Definir rutas causales → Estimar parámetros → Validar ajuste → Diagnostic
 **Modelo teórico:**
 ```
 Insuficiencia ingresos (P6_9) ─┐
-Deuda percibida (P6_8) ───────┼──→ Estrés crediticio (latente)
+Deuda percibida (P6_8) ───────┼──→ Estrés financiero (latente)
 Tarjeta de banco (P6_6_2) ────┘
                                   ↓
                             Acciones coping (P6_10_*)
@@ -163,7 +163,7 @@ Recomendaciones operacionales → Scoring de riesgo
 ## VARIABLES
 
 ### Variable Dependiente
-**estres_crediticio**: Índice ordinal (0=Bajo, 1=Moderado, 2=Alto)
+**estres_financiero**: Índice ordinal (0=Bajo, 1=Moderado, 2=Alto)
 
 Construcción:
 ```
